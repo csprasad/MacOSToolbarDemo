@@ -15,7 +15,7 @@ This macOS SwiftUI app demonstrates how to create a **custom toolbar** with prop
 ![Custom Toolbar Demo](screenshot.png)
 
 ## Initial Implementation (Single-File Approach)
-Initially, the toolbar was implemented inside `ContentView.swift` without separation of concerns:
+Initially, the toolbar was implemented inside `ContentView.swift` without separation of concerns, It is designed to appear beside the window control buttons, similar to Xcode’s toolbar:
 
 ```swift
 struct ContentView: View {
